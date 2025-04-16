@@ -1,0 +1,94 @@
+.Banner {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .Wrap {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrap1 {
+    position: absolute !important;
+    top: 35%;
+    left: 15%;
+    transform: scale(.9);
+    background: url("../../Assets/Images/hero_circle_1.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrap2 {
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    transform: scale(1.1);
+    background: url("../../Assets/Images/hero_circle_2.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrap3 {
+    position: absolute;
+    top: 10%;
+    transform: scale(1.2);
+    background: url("../../Assets/Images/hero_circle_3.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrap4 {
+    position: absolute;
+    top: 60%;
+    transform: scale(.8);
+    background: url("../../Assets/Images/hero_circle_4.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrap5 {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    transform: scale(.8);
+    background: url("../../Assets/Images/hero_circle_5.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrap6 {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    transform: scale(.9);
+    background: url("../../Assets/Images/hero_circle_6.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .wrap7 {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    transform: scale(.6);
+    background: url("../../Assets/Images/hero_circle_7.webp") no-repeat center center;
+    background-size: cover;
+  }
+
+  .wrap8 {
+    position: absolute;
+    top: 70%;
+    right: 25%;
+    transform: scale(1.6);
+    background: url("../../Assets/Images/hero_circle_8.webp") no-repeat center center;
+    background-size: cover;
+  }
+  
+  // .FollowBox {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   height: 100%;
+  //   width: 100%;
+  // }
+  
