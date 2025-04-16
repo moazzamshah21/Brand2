@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Brand2/static/css/main.e599d626.css",
+    "main.js": "/Brand2/static/js/main.921ac0c5.js",
+    "static/media/hero_circle_4.webp": "/Brand2/static/media/hero_circle_4.0e246d005b6f7f7b3987.webp",
+    "static/media/hero_circle_1.webp": "/Brand2/static/media/hero_circle_1.20647aa518ccf2deeacb.webp",
+    "static/media/hero_circle_7.webp": "/Brand2/static/media/hero_circle_7.e956a7103d8e6fcdabe4.webp",
+    "static/media/hero_circle_2.webp": "/Brand2/static/media/hero_circle_2.efe51d3e426ad28af001.webp",
+    "static/media/hero_circle_6.webp": "/Brand2/static/media/hero_circle_6.fb68197572e87700d9c1.webp",
+    "static/media/hero_circle_3.webp": "/Brand2/static/media/hero_circle_3.bd28417f96e5b36f2b17.webp",
+    "static/media/hero_circle_8.webp": "/Brand2/static/media/hero_circle_8.fe6ff3a4fafaf192e7bc.webp",
+    "static/media/hero_circle_5.webp": "/Brand2/static/media/hero_circle_5.61efa4458543a8a2fb8b.webp",
+    "index.html": "/Brand2/index.html",
+    "main.e599d626.css.map": "/Brand2/static/css/main.e599d626.css.map",
+    "main.921ac0c5.js.map": "/Brand2/static/js/main.921ac0c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e599d626.css",
+    "static/js/main.921ac0c5.js"
+  ]
+}
