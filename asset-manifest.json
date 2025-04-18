@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Brand2/static/css/main.e599d626.css",
-    "main.js": "/Brand2/static/js/main.921ac0c5.js",
+    "main.css": "/Brand2/static/css/main.a40a1a1a.css",
+    "main.js": "/Brand2/static/js/main.9d3d7fae.js",
     "static/media/hero_circle_4.webp": "/Brand2/static/media/hero_circle_4.0e246d005b6f7f7b3987.webp",
     "static/media/hero_circle_1.webp": "/Brand2/static/media/hero_circle_1.20647aa518ccf2deeacb.webp",
     "static/media/hero_circle_7.webp": "/Brand2/static/media/hero_circle_7.e956a7103d8e6fcdabe4.webp",
@@ -11,11 +11,11 @@
     "static/media/hero_circle_8.webp": "/Brand2/static/media/hero_circle_8.fe6ff3a4fafaf192e7bc.webp",
     "static/media/hero_circle_5.webp": "/Brand2/static/media/hero_circle_5.61efa4458543a8a2fb8b.webp",
     "index.html": "/Brand2/index.html",
-    "main.e599d626.css.map": "/Brand2/static/css/main.e599d626.css.map",
-    "main.921ac0c5.js.map": "/Brand2/static/js/main.921ac0c5.js.map"
+    "main.a40a1a1a.css.map": "/Brand2/static/css/main.a40a1a1a.css.map",
+    "main.9d3d7fae.js.map": "/Brand2/static/js/main.9d3d7fae.js.map"
   },
   "entrypoints": [
-    "static/css/main.e599d626.css",
-    "static/js/main.921ac0c5.js"
+    "static/css/main.a40a1a1a.css",
+    "static/js/main.9d3d7fae.js"
   ]
 }
