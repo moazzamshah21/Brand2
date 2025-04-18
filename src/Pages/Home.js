@@ -3,6 +3,8 @@ import Banner from '../Components/BannerComponent/Banner';
 import './Home.css';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Steps from "../Components/Sticky Section Scroll/Steps";
+import QuoteAnimation from '../Components/QuoteAnimation/QuoteAnimation';
 
 const Home = () => {
     const HeroHeading = useRef(null);
@@ -292,7 +294,7 @@ const Home = () => {
               scrollTrigger: {
                 trigger: '.second-section-content-3',
                 start: 'top 0%',
-                end: 'bottom 40%',
+                end: 'bottom -30%',
                 scrub: 1,
               }
             }
@@ -308,8 +310,8 @@ const Home = () => {
                 <Banner />
                 </div>
                 <div className='HeroContent'>
-                    <h1 ref={HeroHeading}>Digital Lifestyle<br/> Financial Services</h1>
-                    <p ref={HeroParagraph}>A new financial lifestyle experience at your fingertips</p>
+                    <h1 ref={HeroHeading} className='HeroHeading'>Build Your Brand<br/> With Us</h1>
+                    <p ref={HeroParagraph} className='HeroParagraph'>Elevate Your Brand With Us</p>
                 </div>
             </section>
             <section className='second-section'>
@@ -453,6 +455,17 @@ const Home = () => {
                 </div>
             </section>
 
+            <Steps />
+
+            <section className='third-section'>
+                <div className='third-section-content'>
+                    <h1>Get Started</h1>
+                    <p>Get in touch with us and start your journey today!</p>
+                    <button className='download-btn'>GET IN TOUCH</button>
+                </div>
+                <QuoteAnimation/>
+
+            </section>
 
         </>
     );

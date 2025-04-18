@@ -1,0 +1,118 @@
+.steps {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.steps-counter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.steps-counter h1 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  will-change: transform;
+  z-index: 10;
+  margin: 0;
+}
+
+.counter-title, .count {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.count {
+  margin-top: -10px;
+}
+
+.counter-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+}
+
+.counter-container h1 {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.cards {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 600px;
+  will-change: transform;
+}
+
+.cards.empty {
+  opacity: 0;
+}
+
+.card {
+  position: absolute;
+  width: 700px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  margin-left: -250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0em;
+  will-change: transform;
+}
+
+.card-img {
+  flex: 1;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-content {
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .steps-counter .counter-title {
+    height: 30px;
+  }
+  .steps-counter .counter-title h1 {
+    font-size: 30px;
+  }
+  .count {
+    top: 0;
+    left: -10px;
+  }
+  .cards {
+    top: 27.5%;
+  }
+  .card {
+    width: 375px;
+    height: 500px;
+  }
+}/*# sourceMappingURL=Steps.css.map */

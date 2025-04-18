@@ -1,0 +1,35 @@
+.bg-container-quote {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    // position: absolute;
+    opacity: .3;
+    z-index: 0 !important;
+
+  }
+  
+  #quote {
+    -webkit-transform: translate3d(0, 0, 0);
+    color: #dfdcff;
+    font-size: clamp(2rem, 6rem, 8vw);
+    line-height: 1.2;
+    margin: 50px auto;
+    width: 100%;
+    visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    text-align: center;
+
+    span{
+        color: aqua !important;
+    }
+  }
+  
+  .word {
+    display: inline-block;
+    position: relative;
+    white-space: pre;
+  }

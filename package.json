@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://moazzamshah21.github.io/Brand2",
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
